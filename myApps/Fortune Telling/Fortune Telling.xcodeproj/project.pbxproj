@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AB584A11B589D530006193D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB584A01B589D530006193D /* AppDelegate.swift */; };
+		9AB584A31B589D530006193D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB584A21B589D530006193D /* ViewController.swift */; };
+		9AB584A61B589D530006193D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB584A41B589D530006193D /* Main.storyboard */; };
+		9AB584A81B589D530006193D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB584A71B589D530006193D /* Images.xcassets */; };
+		9AB584AB1B589D530006193D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB584A91B589D530006193D /* LaunchScreen.xib */; };
+		9AB584B71B589D530006193D /* Fortune_TellingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB584B61B589D530006193D /* Fortune_TellingTests.swift */; };
+		9AB584C11B58A5C10006193D /* 97578.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AB584C01B58A5C10006193D /* 97578.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AB584B11B589D530006193D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB584931B589D530006193D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB5849A1B589D530006193D;
+			remoteInfo = "Fortune Telling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AB5849B1B589D530006193D /* Fortune Telling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune Telling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB5849F1B589D530006193D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB584A01B589D530006193D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AB584A21B589D530006193D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AB584A51B589D530006193D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AB584A71B589D530006193D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AB584AA1B589D530006193D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9AB584B01B589D530006193D /* Fortune TellingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune TellingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB584B51B589D530006193D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB584B61B589D530006193D /* Fortune_TellingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune_TellingTests.swift; sourceTree = "<group>"; };
+		9AB584C01B58A5C10006193D /* 97578.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 97578.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AB584981B589D530006193D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB584AD1B589D530006193D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AB584921B589D530006193D = {
+			isa = PBXGroup;
+			children = (
+				9AB5849D1B589D530006193D /* Fortune Telling */,
+				9AB584B31B589D530006193D /* Fortune TellingTests */,
+				9AB5849C1B589D530006193D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AB5849C1B589D530006193D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5849B1B589D530006193D /* Fortune Telling.app */,
+				9AB584B01B589D530006193D /* Fortune TellingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB5849D1B589D530006193D /* Fortune Telling */ = {
+			isa = PBXGroup;
+			children = (
+				9AB584A01B589D530006193D /* AppDelegate.swift */,
+				9AB584A21B589D530006193D /* ViewController.swift */,
+				9AB584A41B589D530006193D /* Main.storyboard */,
+				9AB584C01B58A5C10006193D /* 97578.jpg */,
+				9AB584A71B589D530006193D /* Images.xcassets */,
+				9AB584A91B589D530006193D /* LaunchScreen.xib */,
+				9AB5849E1B589D530006193D /* Supporting Files */,
+			);
+			path = "Fortune Telling";
+			sourceTree = "<group>";
+		};
+		9AB5849E1B589D530006193D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5849F1B589D530006193D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AB584B31B589D530006193D /* Fortune TellingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AB584B61B589D530006193D /* Fortune_TellingTests.swift */,
+				9AB584B41B589D530006193D /* Supporting Files */,
+			);
+			path = "Fortune TellingTests";
+			sourceTree = "<group>";
+		};
+		9AB584B41B589D530006193D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AB584B51B589D530006193D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AB5849A1B589D530006193D /* Fortune Telling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB584BA1B589D530006193D /* Build configuration list for PBXNativeTarget "Fortune Telling" */;
+			buildPhases = (
+				9AB584971B589D530006193D /* Sources */,
+				9AB584981B589D530006193D /* Frameworks */,
+				9AB584991B589D530006193D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fortune Telling";
+			productName = "Fortune Telling";
+			productReference = 9AB5849B1B589D530006193D /* Fortune Telling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AB584AF1B589D530006193D /* Fortune TellingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB584BD1B589D530006193D /* Build configuration list for PBXNativeTarget "Fortune TellingTests" */;
+			buildPhases = (
+				9AB584AC1B589D530006193D /* Sources */,
+				9AB584AD1B589D530006193D /* Frameworks */,
+				9AB584AE1B589D530006193D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB584B21B589D530006193D /* PBXTargetDependency */,
+			);
+			name = "Fortune TellingTests";
+			productName = "Fortune TellingTests";
+			productReference = 9AB584B01B589D530006193D /* Fortune TellingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB584931B589D530006193D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = igue;
+				TargetAttributes = {
+					9AB5849A1B589D530006193D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9AB584AF1B589D530006193D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9AB5849A1B589D530006193D;
+					};
+				};
+			};
+			buildConfigurationList = 9AB584961B589D530006193D /* Build configuration list for PBXProject "Fortune Telling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AB584921B589D530006193D;
+			productRefGroup = 9AB5849C1B589D530006193D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AB5849A1B589D530006193D /* Fortune Telling */,
+				9AB584AF1B589D530006193D /* Fortune TellingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AB584991B589D530006193D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB584C11B58A5C10006193D /* 97578.jpg in Resources */,
+				9AB584A61B589D530006193D /* Main.storyboard in Resources */,
+				9AB584AB1B589D530006193D /* LaunchScreen.xib in Resources */,
+				9AB584A81B589D530006193D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB584AE1B589D530006193D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AB584971B589D530006193D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB584A31B589D530006193D /* ViewController.swift in Sources */,
+				9AB584A11B589D530006193D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB584AC1B589D530006193D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB584B71B589D530006193D /* Fortune_TellingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AB584B21B589D530006193D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB5849A1B589D530006193D /* Fortune Telling */;
+			targetProxy = 9AB584B11B589D530006193D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AB584A41B589D530006193D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB584A51B589D530006193D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AB584A91B589D530006193D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB584AA1B589D530006193D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AB584B81B589D530006193D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AB584B91B589D530006193D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AB584BB1B589D530006193D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fortune Telling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AB584BC1B589D530006193D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fortune Telling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AB584BE1B589D530006193D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fortune TellingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Telling.app/Fortune Telling";
+			};
+			name = Debug;
+		};
+		9AB584BF1B589D530006193D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fortune TellingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Telling.app/Fortune Telling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AB584961B589D530006193D /* Build configuration list for PBXProject "Fortune Telling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB584B81B589D530006193D /* Debug */,
+				9AB584B91B589D530006193D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB584BA1B589D530006193D /* Build configuration list for PBXNativeTarget "Fortune Telling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB584BB1B589D530006193D /* Debug */,
+				9AB584BC1B589D530006193D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AB584BD1B589D530006193D /* Build configuration list for PBXNativeTarget "Fortune TellingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB584BE1B589D530006193D /* Debug */,
+				9AB584BF1B589D530006193D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AB584931B589D530006193D /* Project object */;
+}

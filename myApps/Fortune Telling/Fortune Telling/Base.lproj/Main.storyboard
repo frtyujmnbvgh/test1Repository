@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Fortune_Telling" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sSF-aj-lyL"/>
+                        <viewControllerLayoutGuide type="bottom" id="CVZ-TH-QxP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adm-me-grS">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="dk2-yj-WQZ"/>
+                                    <constraint firstAttribute="width" constant="200" id="krh-MM-DWv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXG-1B-B6k">
+                                <rect key="frame" x="215" y="397" width="170" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="JYV-lx-L6t"/>
+                                    <constraint firstAttribute="width" constant="170" id="fj0-RF-dpz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="97578.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ubX-1i-DFs">
+                                <rect key="frame" x="241" y="233" width="117" height="134"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-Bc-o6e">
+                                <rect key="frame" x="285" y="490" width="30" height="30"/>
+                                <state key="normal" title="占う">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tellFortune" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xVC-G5-a4m"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どうぶつ占い" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N25-rt-EaL">
+                                <rect key="frame" x="249" y="170" width="102" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Adm-me-grS" secondAttribute="centerX" id="1fS-b9-dad"/>
+                            <constraint firstAttribute="centerX" secondItem="ubX-1i-DFs" secondAttribute="centerX" id="2Ta-aO-iVB"/>
+                            <constraint firstAttribute="centerX" secondItem="N25-rt-EaL" secondAttribute="centerX" id="2cI-0D-Z04"/>
+                            <constraint firstItem="rXG-1B-B6k" firstAttribute="top" secondItem="ubX-1i-DFs" secondAttribute="bottom" constant="30" id="3Ga-Xg-4z1"/>
+                            <constraint firstAttribute="centerY" secondItem="ubX-1i-DFs" secondAttribute="centerY" id="41i-dR-ZXn"/>
+                            <constraint firstItem="CVZ-TH-QxP" firstAttribute="top" secondItem="MlS-Bc-o6e" secondAttribute="bottom" constant="80" id="8XJ-AE-lkw"/>
+                            <constraint firstAttribute="centerX" secondItem="MlS-Bc-o6e" secondAttribute="centerX" id="9Ye-Ll-LdY"/>
+                            <constraint firstAttribute="centerX" secondItem="rXG-1B-B6k" secondAttribute="centerX" id="OAH-MJ-1E8"/>
+                            <constraint firstAttribute="centerY" secondItem="Adm-me-grS" secondAttribute="centerY" id="ZEg-xx-AZs"/>
+                            <constraint firstAttribute="centerX" secondItem="rXG-1B-B6k" secondAttribute="centerX" id="hSl-CY-h8P"/>
+                            <constraint firstItem="rXG-1B-B6k" firstAttribute="top" secondItem="ubX-1i-DFs" secondAttribute="bottom" constant="30" id="viX-k7-1vH"/>
+                            <constraint firstAttribute="centerY" secondItem="N25-rt-EaL" secondAttribute="centerY" constant="120" id="z7W-zE-Ann"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animalLabel" destination="Adm-me-grS" id="Ldk-yt-3cj"/>
+                        <outlet property="resultLabel" destination="rXG-1B-B6k" id="lK5-KR-dKz"/>
+                        <outlet property="takabe" destination="ubX-1i-DFs" id="V0X-Zl-3MQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="219" y="611"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="97578.jpg" width="117" height="134"/>
+    </resources>
+</document>
